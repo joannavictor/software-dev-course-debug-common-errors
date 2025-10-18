@@ -28,6 +28,7 @@ console.log("Welcome to the bootcamp
 
 // What’s Wrong?
 
+Missing closing quotation mark and parenthesis in the console.log statement.
 
 // Program B
 // Description:
@@ -41,7 +42,7 @@ for (let i = 0; i < numbers.length; i++) {
 
 // What’s Wrong?
 
-
+Error occurs when trying to multiply a string ("eight") by 2. Need to ensure all elements are numbers before performing multiplication.
 
 // Program C (Logic Error)
 // Description:
@@ -60,3 +61,5 @@ function isPrime(num) {
 console.log(isPrime(7)); // Expected true but gets false
 
 // What’s Wrong?
+
+The logic in the isPrime function is inverted. It should return false when a divisor is found and true if no divisors are found after the loop.
